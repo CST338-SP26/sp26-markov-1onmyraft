@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args ){
         Markov markov = new Markov();
         markov.addFromFile("spam.txt");
         markov.addFromFile("cloudy.txt");
